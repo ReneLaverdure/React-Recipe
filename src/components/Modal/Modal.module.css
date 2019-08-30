@@ -1,0 +1,149 @@
+ .Backdrop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.Modal {
+  position: fixed;
+  z-index: 500;
+  background-color: white;
+  width: 50%;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px black;
+  /* padding: 16px; */
+  left: 25%;
+  top: 10%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+  display: flex;
+
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
+
+.Modal_Left {
+  text-align: center;
+  width: 50%;
+}
+
+.Modal_Left img {
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+}
+
+.Nutrients_List {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+.Nutrients_List li {
+  margin: .5rem auto;
+
+}
+
+.Nutrients_List span {
+  margin-left: 2rem;
+}
+
+.Modal_Right {
+  margin: 0 auto;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+h2 {
+  margin: .8rem;
+}
+
+.Macros {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.Macros li {
+  margin: 0 1rem;
+}
+
+.Macros li:nth-child(1) {
+  color: #C4701D
+}
+.Macros li:nth-child(2) {
+  color: #698B83;
+}
+.Macros li:nth-child(3) {
+  color: #DFA00D;
+}
+
+
+.Health_Labels {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.Health_Labels li {
+  margin: 0 .6rem;
+  color: #24CE57;
+  background-color: #575757;
+  border-radius: 20px;
+  padding: .8rem;
+}
+
+.Caution_Label {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.Caution_Label li{
+  margin: 0 .8rem;
+  color: rgb(243, 69, 50);
+  background-color: #575757;
+  border-radius: 20px;
+  padding: .6rem;
+}
+
+.ingredient {
+  list-style: none;
+  padding: 0;
+}
+
+.ingredient li {
+  margin: .2rem 0;
+}
+
+.Link {
+  position: relative;
+  margin: 0 auto;
+  text-decoration: none;
+  text-align: center;
+  color: #24CE57;
+  border: none;
+  background-color: white;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}

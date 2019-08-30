@@ -1,0 +1,24 @@
+.navbar {
+  position: relative;
+  top: 0;
+  margin-top: 0; 
+  padding: 1rem;
+  background-color: #24AA1B;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.navbar h1 {
+  font-size: 2rem;
+  margin: 0 0 0 8rem;
+  color: white;
+}
+
+.navlist {
+  list-style-type: none;
+  margin: auto;
+  margin-left: 50%;
+  color: white;
+  font-size: 1.4rem;
+}
