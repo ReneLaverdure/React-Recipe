@@ -15,7 +15,6 @@ const App = () => {
     <RecipesProvider>
     <Router>
       
-    <link href="https://fonts.googleapis.com/css?family=Offside|Rancho&display=swap" rel="stylesheet"></link>
     <div className="App">
      <Navbar />
 
