@@ -1,21 +1,12 @@
-.header {
-  font-family: 'Rancho', sans-serif;
-  margin: 2rem auto;
-  text-align: center;
-  font-size: 3.6rem;
-  color: rgb(26, 212, 26);;
-}
-
 .feed {
   display: flex;
   padding: 4rem;
-  padding-top: 0;
-  /* margin: auto; */
   justify-content: space-around;
   flex-wrap: wrap;
   background: #ffffff;
  
 }
+
 
 @media only screen and (max-width: 500px) {
   .feed {

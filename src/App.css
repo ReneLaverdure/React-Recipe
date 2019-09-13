@@ -4,56 +4,8 @@
   padding: 0;
 }
 
-.hero {
-  height: 100vh;
-  background-image: url(./img/food-5.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  /* background-size: cover; */
-  /* padding: 5rem; */
-  margin: 0;
-  padding: 0;
+html {
+  font-family: 'Offside', sans-serif;
 }
 
-.display-title {
-  margin: 0;
-  font-size: 3rem;
-  text-align: center;
-  color: rgb(26, 212, 26);
-}
 
-.display {
-  width: 50%;
-  margin: auto;
-  padding-top: 40vh;
-}
-
-.search-form {
-  min-height: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.search-bar {
-  width: 50%;
-  border: none;
-  padding: 10px;
-}
-
-.search-button {
-  background: lightcoral;
-  border: none;
-  padding: 10px 20px;
-  color: white;
-}
-
-.feed {
-  display: flex;
-  padding: 4rem;
-  /* margin: auto; */
-  justify-content: space-around;
-  flex-wrap: wrap;
-  background: #474747;
- 
-}

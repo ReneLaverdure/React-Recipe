@@ -13,11 +13,11 @@
   z-index: 500;
   background-color: white;
   width: 50%;
-  border: 1px solid #ccc;
-  box-shadow: 1px 1px 1px black;
-  /* padding: 16px; */
+  height: 90%;
+  overflow: auto;
+  margin: auto;
   left: 25%;
-  top: 10%;
+  top: 5%;
   box-sizing: border-box;
   transition: all 0.3s ease-out;
   display: flex;
@@ -29,6 +29,13 @@
 @keyframes animatetop {
   from {top: -300px; opacity: 0}
   to {top: 0; opacity: 1}
+}
+
+.Exit {
+  position: absolute;
+  right: 1rem;
+  top: -1rem;
+  cursor: pointer;
 }
 
 .Modal_Left {
@@ -101,7 +108,7 @@ h2 {
 }
 
 .Health_Labels li {
-  margin: 0 .6rem;
+  margin: .5rem .6rem;
   color: #24CE57;
   background-color: #575757;
   border-radius: 20px;
@@ -119,7 +126,7 @@ h2 {
 }
 
 .Caution_Label li{
-  margin: 0 .8rem;
+  margin: .5rem .8rem;
   color: rgb(243, 69, 50);
   background-color: #575757;
   border-radius: 20px;
@@ -146,4 +153,34 @@ h2 {
   margin: 0 1rem;
   font-size: 1.5rem;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1100px) {
+  .Modal {
+    flex-direction: column;
+  }
+  .Modal_Right {
+    order: 0;
+  }
+  .Modal_Left {
+    order: 1;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .Modal {
+   width: 80%;
+   left: 10%;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .Modal {
+   width: 90%;
+   left: 5%;
+   font-size: 80%;
+  }
+
 }

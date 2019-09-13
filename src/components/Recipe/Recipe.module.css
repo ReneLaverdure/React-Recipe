@@ -1,5 +1,4 @@
 .recipe{
-  border-radius: 10px;
   box-shadow: 0px 5px 20px rgb(71,71,71);
   margin: 20px 1rem;
   display: flex;
@@ -7,23 +6,30 @@
   justify-content: space-around;
   background: white;
   align-items: center;
-  width: 25%;
-  min-width: 15%;
+  width: 30%;
+  min-width: 25%;
   overflow: hidden;
+  font-family: 'Offside', sans-serif;
 }
 
 .recipe h1{
 text-align: center;
 margin: .5rem auto;
+color: #24CE57;
+font-size: 2.5rem;
+font-family: 'Rancho', sans-serif;
 }
 .recipe h2{
   text-align: center;
   margin: .5rem auto;
+  
   }
 .recipe img {
+  /* position: relative;
+  top: 0; */
   width: auto;
   height: 20rem;
-  margin-top: 1rem;
+  margin-top: 0;
 }
 
 .macros {
@@ -31,10 +37,20 @@ margin: .5rem auto;
   display: flex;
   margin: 1rem auto;
   padding: 0;
+  font-family: 'Offside', sans-serif;
 }
 
 .macros li {
   margin:0 1rem 0 1rem ;
+}
+.macros li:nth-child(1) {
+  color: #C4701D
+}
+.macros li:nth-child(2) {
+  color: #698B83;
+}
+.macros li:nth-child(3) {
+  color: #DFA00D;
 }
 
 .ingredients {
@@ -43,17 +59,49 @@ margin: .5rem auto;
   width: 80%;
   text-align: center;
   list-style: none;
+  font-family: 'Offside', sans-serif;
 }
 
 .footer {
   margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 }
 
-.footer button {
+.footer button:first-child {
   border: none;
-  margin: 0 1rem;
+  margin: .2rem 1rem;
   background: none;
   color: #24CE57;
   font-size: 1.5rem;
   cursor: pointer;
+  font-family: 'Offside', sans-serif;
+}
+
+@media only screen and (max-width: 1100px) {
+  .recipe{
+    width: 45%;
+    min-width: 25%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .recipe{
+    width: 80%;
+   
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .recipe{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .recipe{
+    width: 100%;
+  }
 }
