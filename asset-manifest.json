@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-recipe/static/css/main.ea54eb7c.chunk.css",
+    "main.js": "/react-recipe/static/js/main.84b0abed.chunk.js",
+    "main.js.map": "/react-recipe/static/js/main.84b0abed.chunk.js.map",
+    "runtime~main.js": "/react-recipe/static/js/runtime~main.31912138.js",
+    "runtime~main.js.map": "/react-recipe/static/js/runtime~main.31912138.js.map",
+    "static/js/2.43458225.chunk.js": "/react-recipe/static/js/2.43458225.chunk.js",
+    "static/js/2.43458225.chunk.js.map": "/react-recipe/static/js/2.43458225.chunk.js.map",
+    "index.html": "/react-recipe/index.html",
+    "precache-manifest.ef6012c25a7d5dae03f82c3e1d8361f1.js": "/react-recipe/precache-manifest.ef6012c25a7d5dae03f82c3e1d8361f1.js",
+    "service-worker.js": "/react-recipe/service-worker.js",
+    "static/css/main.ea54eb7c.chunk.css.map": "/react-recipe/static/css/main.ea54eb7c.chunk.css.map",
+    "static/media/Home.module.css": "/react-recipe/static/media/food-5.aa3a35c9.jpg"
+  }
+}
